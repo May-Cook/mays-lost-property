@@ -47,6 +47,10 @@ function App() {
               </li>
           </ul>
       </div>
+
+      <div className="max-w-3xs py-5 mx-auto">
+        <img className="shadow-lg dark:shadow-pink-950 rounded-4xl" src={"src/assets/qrIcon.png"} alt="QR code sticker" />
+      </div>
     </div>
   );
 }
