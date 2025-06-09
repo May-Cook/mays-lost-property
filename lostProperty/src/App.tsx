@@ -49,7 +49,7 @@ function App() {
       </div>
 
       <div className="max-w-3xs py-5 mx-auto">
-        <img className="shadow-lg shadow-pink-950/50 rounded-4xl" src={"src/assets/qrIcon.png"} alt="QR code sticker" />
+        <img className="shadow-lg shadow-pink-950/50 rounded-4xl hover:animate-singlespin transition-all" src={"src/assets/qrIcon.png"} alt="QR code sticker" />
       </div>
     </div>
   );

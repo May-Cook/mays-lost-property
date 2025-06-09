@@ -4,4 +4,6 @@
 	--color-purpink-d: #b81873;
 	--color-purpink-m: #f889c8;
 	--color-purpink-l: #ffbde2;
+
+	--animate-singlespin: spin 0.5s ease-in-out;
 }
