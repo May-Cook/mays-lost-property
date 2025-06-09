@@ -1,4 +1,5 @@
 import "./App.css";
+import "./assets/qrIcon.png"
 
 function App() {
   return (
