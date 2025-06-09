@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+	--color-purpink-d: #b81873;
+	--color-purpink-m: #f889c8;
+	--color-purpink-l: #ffbde2;
+}
