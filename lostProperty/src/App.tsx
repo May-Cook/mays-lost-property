@@ -1,7 +1,7 @@
 import "./App.css";
 import "./assets/qrIcon.png"
 
-const BASE_URL = import.meta.env.BASE_URL;  //Set "BASE_URL" to the wherever the page is being served from, see https://vite.dev/guide/env-and-mode for more
+// const BASE_URL = import.meta.env.BASE_URL;  //Set "BASE_URL" to the wherever the page is being served from, see https://vite.dev/guide/env-and-mode for more
 
 function App() {
   return (
@@ -55,7 +55,7 @@ function App() {
       </div>
 
       <div className="max-w-3xs py-5 mx-auto">
-        <img className="rounded-4xl motion-safe:animate-sticker transition-all" src={BASE_URL + "src/assets/qrIcon.png"} alt="QR code sticker" />
+        <img className="rounded-4xl motion-safe:animate-sticker transition-all" src={"https://raw.githubusercontent.com/May-Cook/mays-lost-property/refs/heads/main/lostProperty/src/assets/qrIcon.png"} alt="QR code sticker" />
       </div>
     </div>
   );
